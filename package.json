@@ -1,0 +1,36 @@
+{
+  "name": "rdata-config-server",
+  "version": "1.0.0",
+  "description": "RData Configuration Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/**/*.test.js --reporter spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdata-systems/rdata-config-server.git"
+  },
+  "author": "Leonid Umanskiy, Gear Learning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdata-systems/rdata-config-server/issues"
+  },
+  "homepage": "https://github.com/rdata-systems/rdata-config-server#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "merge": "^1.2.0",
+    "mongoose": "^4.11.3",
+    "morgan": "^1.8.2",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
+  }
+}
