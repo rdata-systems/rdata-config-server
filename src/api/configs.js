@@ -68,7 +68,7 @@ module.exports = function(connection, game) {
             Config.findById(configId)
                 .then(function (config) {
                     res.json({
-                        config: config
+                        config: config.toObject()
                     });
                 })
                 .catch(next);
